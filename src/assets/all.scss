@@ -1,0 +1,15 @@
+@import "bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+
+// 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
+@import "./variables";
+@import "./variables-dark";
+
+@import "bootstrap/scss/bootstrap";
+
+$body-color: rgb(219, 132, 132);
+
+.App-header {
+  background-color: $body-color;
+}
